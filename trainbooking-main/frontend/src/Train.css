@@ -1,0 +1,114 @@
+.body{
+    margin:0vw;
+    height:150%;
+    position:fixed;
+    top:0;
+    left:0;
+    width:150%;
+   
+}
+
+.container{
+  background: url(https://cdn.pixabay.com/photo/2012/10/25/23/18/train-62849_960_720.jpg);
+  min-width: 100%;
+min-height: 100%;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-sixe : cover;
+  background-position: center;
+  
+  }
+
+  .navbar-train h1{
+    color: #000000;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .nav-link{
+    align-items: right;
+    justify-content: right;
+  }
+   .navbar-train button{
+    /* color: #F55A00; */
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+    color: white;
+    background: #000a98;
+    font-size: 12px;
+    padding: 8px 12px;
+    margin: 3px;
+    border : 1px solid white;
+    border-radius: 11px;
+    cursor: pointer;
+    font-weight:bold;
+  }
+  /* button:hover{
+    background-color: rgb(10, 234, 70);
+    color: #FFF;
+    font-size: 12px;
+  } */
+  table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    /* border-radius:10px; */
+  }
+  .thead-dark th {
+
+    color:black;
+    background-color: #1f2937;
+    
+  }
+  .table-body td { 
+      color: black;
+    
+      font-weight: 400;
+  }
+
+  .content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: #1f2937;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+    text-transform: capitalize;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  .content-table tbody tr:nth-of-type(odd) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #000a98;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #000a98;
+  }

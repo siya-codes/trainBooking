@@ -1,0 +1,111 @@
+@media all and (min-width: 480px) {
+    .admin-ops{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0vw;
+        padding: 12px;
+        background: url(https://cdn.pixabay.com/photo/2012/10/25/23/18/train-62849_960_720.jpg);
+        z-index: -1;
+        opacity: 0.8;
+        background-repeat: no-repeat cover;
+        background-size: cover;
+        -webkit-background-size: cover;
+        background-position: center ;
+      
+      }
+    }
+    .admin-ops h1{
+        text-align: center;
+        color:#000a98;
+    }
+
+    table {
+        table-layout: fixed;
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid black;
+        /* border-radius:20px; */
+      }
+      .thead-dark th {
+    
+        color:#ffffff;
+      }
+      .table-body td { 
+          color: black;
+        
+          font-weight: 400;
+      }
+    
+      .content-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      }
+      
+      .content-table thead tr {
+        background-color: #1f2937;
+        color: #ffffff;
+        text-align: left;
+        font-weight: bold;
+      }
+      
+      .content-table th,
+      .content-table td {
+        padding: 12px 15px;
+      }
+      
+      .content-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+        font-weight: bold;
+      }
+      
+      .content-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+      }
+      .content-table tbody tr:nth-of-type(odd) {
+        background-color: #f3f3f3;
+      }
+      
+      .content-table tbody tr:last-of-type {
+        border-bottom: 2px solid #ffffff;
+      }
+      
+      .content-table tbody tr.active-row {
+        font-weight: bold;
+        color: #ffffff;
+      }
+
+      .admin-action button{
+        color: #F55A00;
+        align-items: right;
+        justify-content: right;
+        text-align: right;
+        /* color: rgb(17, 15, 152); */
+        /* background: #000a98; */
+        font-size: 12px;
+        padding: 8px 12px;
+        margin: 3px;
+        /* border : 1px solid white;
+        border-radius: 11px; */
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .admin-ops-insert button{
+        border:1px solid black;
+        border-radius: 14px;
+        justify-content: center;
+        margin: 10px;
+        padding:10px;
+        color:black;
+        background-color: #43c6ea;
+        font-weight: bold;
+        align-items:center;
+      }

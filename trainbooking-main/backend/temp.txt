@@ -1,0 +1,28 @@
+{
+  train: {
+    _id: new ObjectId('667e876a2a1f4f6233262dd6'),
+    TrainNo: 8000,
+    TrainName: 'abc',
+    Origin: 'punjab',
+    Destination: 'delhi',
+    ArrivalTime: 2024-06-27T18:30:00.000Z,
+    DepartureTime: 2024-06-27T18:30:00.000Z,
+    Fare: 500,
+    SeatAvailability: 87,
+    __v: 18,
+    BookedSeats: [ [Object] ]
+  },
+  seatNumber: 1,
+  user: {
+    _id: new ObjectId('667c432ce6d4e0130ce46dea'),
+    FirstName: 'FirstName',
+    LastName: 'LastName',
+    UserName: 'UserName',
+    PhoneNumber: 1235,
+    Email: 'Email1',
+    Password: '$2b$10$6TU5GRJ/O2KBpCn7X6/rOOclXpSk8mS0FcppBA.UMhIRJXmr7dFh.',
+    Role: 'user',
+    Bookings: [],
+    __v: 0
+  }
+}
